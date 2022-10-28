@@ -1,0 +1,67 @@
+.body-profile {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  padding-bottom: 5em;
+}
+
+.header-profile {
+  width: 100%;
+}
+
+.header-profile h1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.icon-profile {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.icon-profile img {
+  border-radius: 50%;
+}
+
+.email-profile h1 {
+  color: rgb(39, 39, 39);
+  display: flex;
+  font-size: 1.5em;
+  justify-content: center;
+}
+
+.btn-profile-actions {
+  border: none;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+}
+
+.btn-profile-actions button {
+  border: none;
+  border-radius: 15px;
+  padding: 30px 0;
+}
+
+.btn-logout {
+  background: none;
+  border: none;
+  position: absolute;
+  right: 5.5px;
+  top: 9px;
+}
+
+.btn-logout img {
+  height: 30px;
+  width: 30px;
+}
+
+.btn-logout p {
+  display: none;
+}

@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.user-action {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0.5em;
+  width: 95%;
+  z-index: 2;
+}
+
+.share-background {
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.444);
+  padding: 0.5em;
+}
+
+.share-btn {
+  background-color: transparent;
+  border: none;
+  filter: invert(0%)
+    sepia(100%)
+    saturate(1352%)
+    hue-rotate(87deg)
+    brightness(359%)
+    contrast(119%);
+}
+
+.recipe-details-container p {
+  margin: 0;
+}
+
+.recipe-details-container {
+  align-items: center;
+  background-color: rgb(246, 246, 246);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+}
+
+/* .recipe-top-info {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  width: 100%;
+}
+
+.recipe-top-info img {
+  display: none;
+  width: 100%;
+}
+
+.recipe-top-info-img {
+  background-attachment: fixed;
+  background-position: 0 -30%;
+  background-size: contain;
+  box-shadow: inset 0 -5px 5px rgba(0, 0, 0, 0.739);
+  height: 200px;
+  width: 100%;
+}
+
+.recipe-top-info h1 {
+  color: rgb(12, 12, 12);
+  font-size: 3em;
+  font-weight: 900;
+  margin-top: 1em;
+  text-align: center;
+  text-shadow: 0 0 6px rgba(0, 0, 0, 0.365);
+  width: 100%;
+  z-index: 1;
+}
+
+.recipe-top-info p {
+  color: rgb(52, 52, 52);
+  font-weight: 900;
+  margin-bottom: 2em;
+  margin-top: -0.24em;
+  padding: 0.1em 0.3em;
+  text-align: center;
+  width: 100%;
+} */
+
+/* .ingredients-list {
+  font-size: 0.9em;
+  margin-bottom: 2em;
+  padding: 0 2em;
+} */
+
+
+/* .recipe-instructions {
+  line-height: 1.5em;
+  margin-bottom: 2em;
+  padding: 0 0.8em;
+  text-align: justify;
+  white-space: pre-line;
+} */
+
+/* .youtube-player {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.349);
+  margin: 2em 0;
+  width: 100%;
+} */
+
+
+/* .recommend-container {
+  padding-top: 1em;
+  width: 100%;
+}
+
+.recommend-container img {
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.461);
+  width: 50vw;
+}
+
+.recommend-container p {
+  font-weight: 900;
+  text-align: center;
+} */
+
+.ingredients-container {
+  color: rgb(42, 42, 42);
+  font-family: Handlee , sans-serif;
+  font-weight: 900;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.493);
+  width: 100%;
+}
+
+/* .ingredients-container h2 {
+  font-size: 1.5em;
+  font-weight: 900;
+  letter-spacing: 0.25em;
+  padding: 0.1em 0.5em;
+} */
+
+.ingredient-div {
+  align-items: center;
+  display: flex;
+  gap: 0.3em;
+}
+
+.ingredient-div p {
+  margin: 0;
+}
+
+.ingredient-marked {
+  text-decoration: line-through;
+}
+
+.alert-link-copied {
+  background-color: white;
+  border-radius: 25px;
+  font-weight: 900;
+  padding: 0.3em 0.5em;
+  position: fixed;
+  top: 10px;
+}

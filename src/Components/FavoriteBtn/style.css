@@ -1,0 +1,23 @@
+.fav-btn-marked {
+  background-color: transparent;
+  border: none;
+  filter: invert(40%)
+    sepia(100%)
+    saturate(30000%)
+    hue-rotate(0deg)
+    brightness(100%)
+    contrast(100%)
+    drop-shadow(0 0 4px rgba(0, 0, 0, 0.642));
+}
+
+.fav-btn-unmarked {
+  background-color: transparent;
+  border: none;
+  filter: invert(40%)
+    sepia(100%)
+    saturate(30000%)
+    hue-rotate(0deg)
+    brightness(100%)
+    contrast(100%)
+    drop-shadow(0 0 4px rgba(0, 0, 0, 0.642));
+}

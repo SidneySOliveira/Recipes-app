@@ -1,0 +1,46 @@
+.share-background {
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.444);
+  padding: 0.5em;
+}
+
+.share-btn {
+  background-color: transparent;
+  border: none;
+  filter: invert(0%)
+    sepia(100%)
+    saturate(1352%)
+    hue-rotate(87deg)
+    brightness(359%)
+    contrast(119%);
+}
+
+.alert-div, .alert-link-copied p, .alert-link-copied {
+  left: 50;
+  right: 50;
+  top: 10px;
+}
+
+.alert-div {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 10px;
+  width: 100vw;
+  z-index: 3;
+}
+
+.alert-link-copied {
+  background-color: white;
+  border-radius: 25px;
+  font-weight: 900;
+  padding: 0.3em 0.5em;
+  position: fixed;
+  text-align: center;
+  top: 10px;
+  width: 104px;
+}
