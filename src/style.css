@@ -1,0 +1,101 @@
+input:-webkit-autofill {
+  background-clip: text;
+  -webkit-text-fill-color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  align-items: center;
+  background-image: url('../public/ingredientImage.jpg');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto , monospace;
+  font-weight: 500;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.background {
+  align-items: center;
+  background-color: rgba(12, 12, 12, 0.438);
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.input-section {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-container {
+  display: flex;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.445);
+}
+
+.title-st {
+  color: rgb(245, 243, 243);
+  font-weight: 500;
+}
+
+.title-nd {
+  color: white;
+  font-weight: 100;
+}
+
+.input-background {
+  background-color: rgba(10, 10, 10, 0.397);
+  border: none;
+  border-radius: 5px;
+}
+
+.label-input {
+  color: aliceblue;
+  font-size: 0.8em;
+  font-weight: 700;
+  margin-bottom: -12px;
+  width: 95%;
+  z-index: 1;
+}
+
+.input-login {
+
+  /* background-color: rgba(10, 10, 10, 0.397); */
+  background-color: transparent;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: 500;
+  padding: 9px 20px;
+  width: 100%;
+}
+
+.input-login:focus {
+  outline: none;
+  padding: 9px 20px;
+}
+
+button {
+  transition: 0.2s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+.btn-login {
+  border: none;
+  border-radius: 6px;
+  padding: 5px 25px;
+}
+

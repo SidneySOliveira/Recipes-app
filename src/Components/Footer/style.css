@@ -1,0 +1,37 @@
+.food-or-drink {
+  align-items: center;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  position: fixed;
+  width: 90%;
+}
+
+.food-or-drink a {
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.334);
+  padding: 0.7em;
+}
+
+.food-or-drink-active-div {
+  background-color: black;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.334);
+}
+
+.food-or-drink-inactive-div {
+  background-color: rgb(246, 246, 246);
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.334);
+}
+
+.food-or-drink-active {
+  filter: invert(900%)
+    sepia(0%)
+    saturate(1352%)
+    hue-rotate(87deg)
+    brightness(359%)
+    contrast(119%);
+  transition: 0.5s ease-in-out;
+}
